@@ -9,7 +9,7 @@ import io.micronaut.data.annotation.Repository;
 import ru.tyshchenko.model.Shop;
 
 @Repository
-@Requires(bean = DataSource.class, sdk = Requires.Sdk.JAVA)
+//@Requires(bean = DataSource.class, sdk = Requires.Sdk.JAVA)
 public interface ShopRepository {
 
   @Executable

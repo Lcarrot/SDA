@@ -1,7 +1,5 @@
 package ru.tyshchenko.springexamples.dto;
 
-import javax.validation.Valid;
-
 import ru.tyshchenko.springexamples.annotation.HasMoreThanOneLetter;
 
 public class ShopDto {
